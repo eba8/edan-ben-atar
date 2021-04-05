@@ -706,9 +706,18 @@ h2 {
   padding-right: 1.25rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-0\.5 {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 * {

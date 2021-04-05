@@ -549,12 +549,30 @@ h2 {
   border-width: 0;
 }
 
+.bg-lime-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(132, 204, 22, var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .table {
@@ -563,6 +581,10 @@ h2 {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
@@ -589,6 +611,11 @@ h2 {
   height: 100vh;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -602,6 +629,11 @@ h2 {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -630,8 +662,8 @@ h2 {
   margin-top: 0.5rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mt-12 {
@@ -654,9 +686,19 @@ h2 {
   overflow: hidden;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -669,14 +711,9 @@ h2 {
   padding-bottom: 1.25rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 
 * {
@@ -694,6 +731,11 @@ h2 {
 
 .text-center {
   text-align: center;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 .text-gray-400 {
@@ -796,11 +838,6 @@ h2 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-
-  .sm\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -814,21 +851,12 @@ h2 {
     display: grid;
   }
 
-  .md\:gap-x-8 {
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
-  }
-
-  .md\:gap-y-12 {
-    row-gap: 3rem;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-rows-2 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
+  .md\:grid-rows-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
   }
 }
 

@@ -672,10 +672,6 @@ h2 {
   max-width: 80rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;

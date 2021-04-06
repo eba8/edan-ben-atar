@@ -601,10 +601,6 @@ h2 {
   height: 1.5rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -702,14 +698,14 @@ h2 {
   padding-right: 1.25rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .py-0\.5 {

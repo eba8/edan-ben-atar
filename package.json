@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwind build static/assets/css/style_build.css -o static/assets/css/style.css",
-    "prod": "NODE_ENV=production npm run build:css"
+    "dev": "tailwind build static/assets/css/style_build.css -o static/assets/css/style.css",
+    "prod": "NODE_ENV=production npm run dev"
   },
   "keywords": [],
   "author": "",
